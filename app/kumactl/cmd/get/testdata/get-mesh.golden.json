@@ -2,8 +2,7 @@
     "type": "Mesh",
     "name": "mesh-1",
     "mtls": {
-        "enabled": true,
-        "defaultBackend": "builtin-1",
+        "enabledBackend": "builtin-1",
         "backends": [
             {
                 "name": "builtin-1",

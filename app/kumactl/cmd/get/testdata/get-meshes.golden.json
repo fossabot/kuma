@@ -40,8 +40,7 @@
         ]
       },
       "mtls": {
-        "enabled": true,
-        "defaultBackend": "builtin-1",
+        "enabledBackend": "builtin-1",
         "backends": [
           {
             "name": "builtin-1",
@@ -69,7 +68,6 @@
       "logging": {
         "backends": []
       },
-      "mtls": {},
       "name": "mesh2",
       "type": "Mesh"
     }

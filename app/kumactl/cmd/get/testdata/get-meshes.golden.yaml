@@ -12,8 +12,7 @@ items:
         path: /non-standard-path
         port: 1234
     mtls:
-      enabled: true
-      defaultBackend: builtin-1
+      enabledBackend: builtin-1
       backends:
         - name: builtin-1
           type: builtin
@@ -35,7 +34,6 @@ items:
       prometheus:
         path: /non-standard-path
         port: 1234
-    mtls: {}
     name: mesh2
     tracing:
       backends: []
